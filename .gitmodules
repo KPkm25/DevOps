@@ -1,0 +1,9 @@
+[submodule "Git&GitHub/todo-app"]
+	path = Git&GitHub/todo-app
+	url = https://github.com/KPkm25/todo-app
+[submodule "Git&GitHub/PKM-portfolio"]
+	path = Git&GitHub/PKM-portfolio
+	url = https://github.com/KPkm25/PKM-portfolio
+[submodule "Git&GitHub/Recipe_App"]
+	path = Git&GitHub/Recipe_App
+	url = https://github.com/KPkm25/Recipe_App
