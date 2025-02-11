@@ -27,6 +27,9 @@ def main():
         elif choice=="3":
             amt=float(input("Enter withdrawal amount:"))
             atm.withdraw(amt)
+        elif choice=="4":
+            print(f"Thank you using our services!")
+            break
         else:
             print("Invalid choice! Try again.")
 
