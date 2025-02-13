@@ -21,10 +21,12 @@ jobs:
 
       - name: Run tests
         run: pytest
-	
+
       - name: Update Submodules
-      - run: |
-	 git submodule update --remote --merge
-	 git add AI_Log_Analytics
-	 git commit -m "Auto update AI_Log_Analytics submodule"
-	 git push
+        run: |
+          git submodule update --remote --merge
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add AI_Log_Analytics
+          git commit -m "Auto update AI_Log_Analytics submodule" || echo "No changes to commit"
+          git push
