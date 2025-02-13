@@ -1,0 +1,30 @@
+name: Python CI/CD
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          submodules: true  # ✅ Ensures submodules are pulled
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: pytest
+	
+      - name: Update Submodules
+      - run: |
+	 git submodule update --remote --merge
+	 git add AI_Log_Analytics
+	 git commit -m "Auto update AI_Log_Analytics submodule"
+	 git push
