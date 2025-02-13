@@ -10,3 +10,6 @@
 [submodule "Python/Py_Adv/AI_Log_Analyzer"]
 	path = Python/Py_Adv/AI_Log_Analyzer
 	url = https://github.com/KPkm25/AI_Log_Analyzer
+[submodule "Python/Py_Adv/Git_Action_Workflow/AI_Log_Analyzer"]
+	path = Python/Py_Adv/Git_Action_Workflow/AI_Log_Analyzer
+	url = https://github.com/KPkm25/AI_Log_Analyzer
