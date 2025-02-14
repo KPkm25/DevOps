@@ -22,11 +22,14 @@ jobs:
       - name: Run tests
         run: pytest
 
-      - name: Update Submodules
+        - name: Update Submodules
         run: |
-          git submodule update --remote --merge
+          git submodule update --init --recursive
+          git submodule sync --recursive
+          git submodule update --remote --force --merge  # Force merge updates
           git config --local user.name "KPkm25"
           git config --local user.email "kumarparakram007@gmail.com"
-          git add Python/Py_Adv/Github_Action_Workflow/AI_Log_Analyzer
+          git add .
           git commit -m "Auto update AI_Log_Analyzer submodule" || echo "No changes to commit"
           git push origin main
+      
