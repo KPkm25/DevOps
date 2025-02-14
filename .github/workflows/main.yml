@@ -22,7 +22,7 @@ jobs:
       - name: Run tests
         run: pytest
 
-        - name: Update Submodules
+      - name: Update Submodules
         run: |
           git submodule update --init --recursive
           git submodule sync --recursive
