@@ -13,3 +13,6 @@
 [submodule "Groovy/Log_Checker"]
 	path = Groovy/Log_Checker
 	url = https://github.com/KPkm25/Log_Checker
+[submodule "Groovy/gradle_plugin"]
+	path = Groovy/gradle_plugin
+	url = https://github.com/KPkm25/gradle_plugin
