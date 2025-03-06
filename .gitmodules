@@ -16,3 +16,24 @@
 [submodule "Groovy/gradle_plugin"]
 	path = Groovy/gradle_plugin
 	url = https://github.com/KPkm25/gradle_plugin
+[submodule "Docker/py-docker"]
+	path = Docker/py-docker
+	url = https://github.com/KPkm25/py-docker
+[submodule "Docker/nginx-config"]
+	path = Docker/nginx-config
+	url = https://github.com/KPkm25/nginx-config
+[submodule "Docker/Py-JenDock"]
+	path = Docker/Py-JenDock
+	url = https://github.com/KPkm25/Py-JenDock
+[submodule "Jenkins/maven-java-app"]
+	path = Jenkins/maven-java-app
+	url = https://github.com/KPkm25/maven-java-app
+[submodule "Jenkins/java_jenkins"]
+	path = Jenkins/java_jenkins
+	url = https://github.com/KPkm25/java_jenkins
+[submodule "Jenkins/python_pipeline"]
+	path = Jenkins/python_pipeline
+	url = https://github.com/KPkm25/python_pipeline
+[submodule "Jenkins/Jenkins_Pipeline"]
+	path = Jenkins/Jenkins_Pipeline
+	url = https://github.com/KPkm25/Jenkins_Pipeline
