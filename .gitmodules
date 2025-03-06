@@ -37,3 +37,6 @@
 [submodule "Jenkins/Jenkins_Pipeline"]
 	path = Jenkins/Jenkins_Pipeline
 	url = https://github.com/KPkm25/Jenkins_Pipeline
+[submodule "Docker/Flask-Docker"]
+	path = Docker/Flask-Docker
+	url = https://github.com/KPkm25/Flask-Docker
