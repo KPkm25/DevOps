@@ -40,3 +40,15 @@
 [submodule "Docker/Flask-Docker"]
 	path = Docker/Flask-Docker
 	url = https://github.com/KPkm25/Flask-Docker
+[submodule "Docker/jenkins-docker"]
+	path = Docker/jenkins-docker
+	url = https://github.com/KPkm25/jenkins-docker
+[submodule "Docker/flask-ci-cd"]
+	path = Docker/flask-ci-cd
+	url = https://github.com/KPkm25/flask-ci-cd
+[submodule "Docker/compose-test"]
+	path = Docker/compose-test
+	url = https://github.com/KPkm25/compose-test
+[submodule "Docker/doc-swarm"]
+	path = Docker/doc-swarm
+	url = https://github.com/KPkm25/doc-swarm
