@@ -52,3 +52,6 @@
 [submodule "Docker/doc-swarm"]
 	path = Docker/doc-swarm
 	url = https://github.com/KPkm25/doc-swarm
+[submodule "Kubernetes/flask-kube"]
+	path = Kubernetes/flask-kube
+	url = https://github.com/KPkm25/flask-kube
