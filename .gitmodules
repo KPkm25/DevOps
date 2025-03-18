@@ -55,3 +55,6 @@
 [submodule "Kubernetes/flask-kube"]
 	path = Kubernetes/flask-kube
 	url = https://github.com/KPkm25/flask-kube
+[submodule "Kubernetes/multi-tier-web-app"]
+	path = Kubernetes/multi-tier-web-app
+	url = https://github.com/KPkm25/multi-tier-web-app
