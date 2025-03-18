@@ -58,3 +58,6 @@
 [submodule "Kubernetes/multi-tier-web-app"]
 	path = Kubernetes/multi-tier-web-app
 	url = https://github.com/KPkm25/multi-tier-web-app
+[submodule "Kubernetes/multi-tenant-policy"]
+	path = Kubernetes/multi-tenant-policy
+	url = https://github.com/KPkm25/multi-tenant-policy
