@@ -61,3 +61,12 @@
 [submodule "Kubernetes/multi-tenant-policy"]
 	path = Kubernetes/multi-tenant-policy
 	url = https://github.com/KPkm25/multi-tenant-policy
+[submodule "Ansible/ansible_apache"]
+	path = Ansible/ansible_apache
+	url = https://github.com/KPkm25/ansible_apache
+[submodule "Ansible/ansible_nginx"]
+	path = Ansible/ansible_nginx
+	url = https://github.com/KPkm25/ansible_nginx
+[submodule "Ansible/ansible_user"]
+	path = Ansible/ansible_user
+	url = https://github.com/KPkm25/ansible_user
